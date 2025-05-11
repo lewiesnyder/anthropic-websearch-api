@@ -1,0 +1,11 @@
+[project]
+name = "anthropic-websearch"
+version = "0.1.0"
+description = "A simple example of web search RAG using Anthropic's Web Search Tool"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.51.0",
+    "jupyter>=1.1.1",
+    "python-dotenv>=1.1.0",
+]
